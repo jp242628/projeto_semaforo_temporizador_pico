@@ -24,8 +24,8 @@ Conecte os LEDs aos pinos GPIO da Raspberry Pi Pico conforme a tabela abaixo:
 1. Clone o repositório e navegue até o diretório do projeto:
 
     ```sh
-    git clone <URL_DO_REPOSITORIO>
-    cd <NOME_DO_DIRETORIO>
+    git clone https://github.com/jp242628/projeto_semaforo_temporizador_pico.git
+    cd semaforo_periodico
     ```
 
 2. Configure o ambiente, compile e carregue o código no Raspberry Pi Pico utilizando o ambiente de desenvolvimento de sua preferência.
@@ -42,4 +42,4 @@ O programa inicializa os pinos GPIO dos LEDs como saída e configura um temporiz
 
 ## Código Fonte
 
-O código fonte principal está localizado no arquivo *semaforo_periodico.c*
+O código com a função principal está em `temporizador_leds_botao.c`.

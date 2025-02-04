@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/temporizador_leds_botao.hex'
+elf = 'build/temporizador_leds_botao.elf'

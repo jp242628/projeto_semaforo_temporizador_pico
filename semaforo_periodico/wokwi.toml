@@ -1,0 +1,4 @@
+[wokwi]
+version = 1
+firmware = 'build/semaforo_periodico.hex'
+elf = 'build/semaforo_periodico.elf'
